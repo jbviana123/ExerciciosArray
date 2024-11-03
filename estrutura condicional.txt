@@ -1,0 +1,28 @@
+exercicios estruturas condicionais
+
+areaExterna <- se Fumantes ou com animais de estimaçao 
+1 andar <= grupos de 5 ou mais
+outros <= terreo
+
+Var opcao :inteiro 
+
+
+Inicio 
+
+ESCREVAL("seja bem vindo ao nosso restaurante para melhor lhe atender responda ")
+ESCREVA ("-----Menu de opçoes-----
+          Digite 1 caso seja fumante ou possui animais de estimaçao
+          Digite 2 caso esteja com 5 ou mais pessoas
+          Digite 3 nenhuma das opçoes ") 
+
+leia(opcao)
+
+se (opcao = 1)entao
+   escreva("dirija se a are externa")
+senao 
+    se(opcao = 2)
+   escreva ("dirija se ao 1º andar")
+senao
+   escreva ("dirija se ao terreo ")
+
+fim se
